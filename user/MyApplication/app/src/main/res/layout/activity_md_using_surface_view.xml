@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".assist.MD360PlayerActivity">
+
+   <FrameLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+      <android.opengl.GLSurfaceView
+          android:id="@+id/gl_view"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+         <TextView
+             android:id="@+id/hotspot_point1"
+             android:text="+"
+             android:textColor="@android:color/white"
+             android:gravity="center"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:visibility="invisible"/>
+         <TextView
+             android:id="@+id/hotspot_point2"
+             android:text="+"
+             android:textColor="@android:color/white"
+             android:gravity="center"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:visibility="invisible" />
+      </LinearLayout>
+   </FrameLayout>
+
+   <LinearLayout
+       android:id="@+id/spinner_layout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <android.support.v7.widget.AppCompatSpinner
+          android:layout_marginLeft="0dp"
+          android:paddingLeft="0dp"
+          android:paddingRight="0dp"
+          android:id="@+id/spinner_interactive"
+          android:layout_width="100dp"
+          android:minWidth="100dp"
+          android:layout_height="wrap_content"
+          android:visibility="gone"/>
+
+      <android.support.v7.widget.AppCompatSpinner
+          android:layout_marginLeft="8dp"
+          android:paddingLeft="0dp"
+          android:paddingRight="0dp"
+          android:id="@+id/spinner_display"
+          android:layout_width="100dp"
+          android:minWidth="100dp"
+          android:layout_height="wrap_content"
+          android:visibility="gone"/>
+
+      <android.support.v7.widget.AppCompatSpinner
+          android:layout_marginLeft="8dp"
+          android:paddingLeft="0dp"
+          android:paddingRight="0dp"
+          android:id="@+id/spinner_projection"
+          android:layout_width="100dp"
+          android:minWidth="100dp"
+          android:layout_height="wrap_content"
+          android:visibility="gone"/>
+
+      <android.support.v7.widget.AppCompatSpinner
+          android:layout_marginLeft="8dp"
+          android:paddingLeft="0dp"
+          android:paddingRight="0dp"
+          android:id="@+id/spinner_distortion"
+          android:layout_width="100dp"
+          android:minWidth="100dp"
+          android:layout_height="wrap_content"
+          android:visibility="gone"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_below="@id/spinner_layout"
+       android:layout_marginTop="8dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <Button
+          android:id="@+id/button_add_plugin"
+          android:textSize="13sp"
+          android:textColor="@android:color/white"
+          android:text="addPlugin"
+          android:paddingLeft="8dp"
+          android:paddingRight="8dp"
+          android:includeFontPadding="false"
+          android:background="@drawable/selector_button_background"
+          android:layout_width="wrap_content"
+          android:layout_height="42dp"
+          android:visibility="gone"/>
+      <Button
+          android:id="@+id/button_remove_plugin"
+          android:textSize="13sp"
+          android:textColor="@android:color/white"
+          android:layout_marginLeft="8dp"
+          android:text="removePlugin"
+          android:paddingLeft="8dp"
+          android:paddingRight="8dp"
+          android:includeFontPadding="false"
+          android:background="@drawable/selector_button_background"
+          android:layout_width="wrap_content"
+          android:layout_height="42dp"
+          android:visibility="gone" />
+
+      <Button
+          android:id="@+id/button_add_plugin_logo"
+          android:textSize="13sp"
+          android:textColor="@android:color/white"
+          android:layout_marginLeft="8dp"
+          android:text="addPluginLogo"
+          android:paddingLeft="8dp"
+          android:paddingRight="8dp"
+          android:includeFontPadding="false"
+          android:background="@drawable/selector_button_background"
+          android:layout_width="wrap_content"
+          android:layout_height="42dp"
+          android:visibility="gone" />
+
+      <Button
+          android:id="@+id/button_remove_plugins"
+          android:textSize="13sp"
+          android:textColor="@android:color/white"
+          android:layout_marginLeft="8dp"
+          android:text="removePlugins"
+          android:paddingLeft="8dp"
+          android:paddingRight="8dp"
+          android:includeFontPadding="false"
+          android:background="@drawable/selector_button_background"
+          android:layout_width="wrap_content"
+          android:layout_height="42dp"
+          android:visibility="gone" />
+   </LinearLayout>
+
+   <TextView
+       android:layout_alignParentBottom="true"
+       android:id="@+id/hotspot_text"
+       android:textColor="@android:color/white"
+       android:background="@drawable/selector_button_background"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:visibility="gone"/>
+
+   <ProgressBar
+       android:layout_centerInParent="true"
+       android:id="@+id/progress"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+   <ImageButton
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_alignParentRight="true"
+       android:layout_centerInParent="true"
+       android:layout_marginRight="10dp"
+       android:id="@+id/controlBtn"
+       android:background="@android:color/transparent"/>
+
+   <Button
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_alignParentRight="true"
+      android:text="TEST"
+       android:layout_marginRight="10dp"
+       android:id="@+id/controlBtn1"
+       android:background="@android:color/transparent"
+       android:visibility="gone"/>
+
+</RelativeLayout>

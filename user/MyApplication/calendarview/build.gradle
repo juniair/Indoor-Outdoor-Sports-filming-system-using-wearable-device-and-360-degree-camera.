@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'juniair'
+    groupId = 'com.juniair.library'
+    artifactId = 'calendarview-release'
+    publishVersion = '0.1.0'
+    desc = 'CalendarView UI for Android'
+    website = 'https://github.com/juniair/CustomView'
+    issueTracker = "${website}/issues"
+    repository = "${website}.git"
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.3.0'
+
+    compile 'com.android.support:recyclerview-v7:23.3.+'
+
+    compile 'com.android.support:cardview-v7:23.3.+'
+
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+}
