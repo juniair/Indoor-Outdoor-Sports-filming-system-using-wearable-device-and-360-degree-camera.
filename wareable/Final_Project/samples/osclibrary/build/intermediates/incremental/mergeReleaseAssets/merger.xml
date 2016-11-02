@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Golf\Final_Project\samples\osclibrary\src\main\assets"/><source path="C:\Golf\Final_Project\samples\osclibrary\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Golf\Final_Project\samples\osclibrary\src\release\assets"/></dataSet></merger>

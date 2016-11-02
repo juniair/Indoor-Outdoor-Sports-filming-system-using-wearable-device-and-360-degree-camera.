@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FriendsLink-ble/FriendsLink-ble.iml" filepath="$PROJECT_DIR$/FriendsLink-ble/FriendsLink-ble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FriendsLink-octopus/FriendsLink-octopus.iml" filepath="$PROJECT_DIR$/FriendsLink-octopus/FriendsLink-octopus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FriendsLink-wifi/FriendsLink-wifi.iml" filepath="$PROJECT_DIR$/FriendsLink-wifi/FriendsLink-wifi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apidemo/apidemo.iml" filepath="$PROJECT_DIR$/apidemo/apidemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloFriendsCamera/helloFriendsCamera.iml" filepath="$PROJECT_DIR$/helloFriendsCamera/helloFriendsCamera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osclibrary/osclibrary.iml" filepath="$PROJECT_DIR$/osclibrary/osclibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples.iml" filepath="$PROJECT_DIR$/samples.iml" />
+    </modules>
+  </component>
+</project>

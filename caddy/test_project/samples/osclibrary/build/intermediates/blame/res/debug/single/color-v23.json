@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Golf\\test_project\\samples\\osclibrary\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Golf\\test_project\\samples\\osclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Golf\\FriendsCameraSDK_v1.0\\samples\\osclibrary\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Golf\\FriendsCameraSDK_v1.0\\samples\\osclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v23\\abc_color_highlight_material.xml"
+    }
+]

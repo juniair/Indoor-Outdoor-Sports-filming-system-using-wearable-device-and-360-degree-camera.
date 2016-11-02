@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="FriendsLink-ble-unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/helloFriendsCamera/build/intermediates/exploded-aar/samples/FriendsLink-ble/unspecified/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/helloFriendsCamera/build/intermediates/exploded-aar/samples/FriendsLink-ble/unspecified/jars/libs/selfupdate-support-v1.2.jar!/" />
+      <root url="file://$PROJECT_DIR$/helloFriendsCamera/build/intermediates/exploded-aar/samples/FriendsLink-ble/unspecified/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Golf\\FriendsCameraSDK_v1.0\\samples\\apidemo\\build\\intermediates\\res\\merged\\debug\\menu\\contextual_actions.xml",
+        "source": "C:\\Golf\\FriendsCameraSDK_v1.0\\samples\\apidemo\\src\\main\\res\\menu\\contextual_actions.xml"
+    },
+    {
+        "merged": "C:\\Golf\\test_project\\samples\\apidemo\\build\\intermediates\\res\\merged\\debug\\menu\\contextual_actions.xml",
+        "source": "C:\\Golf\\test_project\\samples\\apidemo\\src\\main\\res\\menu\\contextual_actions.xml"
+    }
+]

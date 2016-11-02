@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+
+    <ScrollView
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+            <!--<TextView-->
+                <!--android:id="@+id/textView2"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Connection State" />-->
+            <TextView
+                android:id="@+id/textConnectionStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="회원번호 , 이름"
+                />
+            <TextView
+                android:id="@+id/text_state"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Connection State"
+                android:layout_below="@+id/textConnectionStatus"/>
+            <!--<Button-->
+                <!--android:id="@+id/button_connect"-->
+                <!--android:layout_width="180dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textStyle="bold"-->
+                <!--android:text="캐디캠 연결"-->
+                <!--android:layout_below="@+id/text_state"-->
+                <!--android:layout_alignParentStart="true" />-->
+            <Button
+                android:id="@+id/button_connect"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="캐디캠 연결"
+                android:layout_marginRight="50px"
+                android:textColor="@color/colorWhite"
+                android:background="@color/ColorBlack"
+                android:textSize="20sp"
+                android:layout_marginTop="117dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/text_state"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:id="@+id/button_connect_cam1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toEndOf="@+id/button_connect"
+                android:textStyle="bold"
+                android:text="1번 카메라 연결"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/ColorBlack"
+                android:textSize="20sp"
+                android:layout_below="@+id/text_state"
+                android:layout_alignTop="@+id/button_connect"
+                android:layout_alignParentEnd="true" />
+            <!--<Button-->
+                <!--android:id="@+id/button_connect_cam1"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_toEndOf="@+id/button_connect"-->
+                <!--android:textStyle="bold"-->
+                <!--android:text="1번 카메라 연결"-->
+                <!--android:layout_below="@+id/text_state"-->
+                <!--android:layout_alignParentEnd="true" />-->
+
+
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Choose File"-->
+                <!--android:id="@+id/buttonChoose"-->
+                <!--android:layout_below="@+id/textConnectionStatus"/>-->
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_connect"/>
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Upload"-->
+                <!--android:id="@+id/buttonUpload"-->
+                <!--android:layout_below="@+id/textView"/>-->
+
+            <TextView
+                android:id="@+id/textViewResponse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                />
+            <Button
+                android:id="@+id/button_recordVideo"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/recording"
+                android:background="@color/gray"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:layout_below="@+id/textViewResponse"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="49dp" />
+            <!--<Button-->
+                <!--android:id="@+id/button_recordVideo"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/recording"-->
+                <!--android:layout_below="@+id/textViewResponse"-->
+                <!--/>-->
+
+             </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/uploading"
+        android:background="@color/ColorBlack"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button_layout"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/button_network"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/network"
+        android:background="@color/ColorBlack"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/button_upload"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/button_upload" />
+</RelativeLayout>
+

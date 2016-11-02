@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Golf\\FriendsCameraSDK_v1.0\\samples\\apidemo\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Golf\\FriendsCameraSDK_v1.0\\samples\\apidemo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Golf\\test_project\\samples\\apidemo\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Golf\\test_project\\samples\\apidemo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
+    }
+]

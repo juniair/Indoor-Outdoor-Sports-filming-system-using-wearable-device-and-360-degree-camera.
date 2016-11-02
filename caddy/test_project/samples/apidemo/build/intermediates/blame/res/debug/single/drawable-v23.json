@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Golf\\FriendsCameraSDK_v1.0\\samples\\apidemo\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\Golf\\FriendsCameraSDK_v1.0\\samples\\apidemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "C:\\Golf\\test_project\\samples\\apidemo\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\Golf\\test_project\\samples\\apidemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    }
+]

@@ -1,0 +1,46 @@
+TASK com.lge.friendsCamera id=703
+  ACTIVITY com.lge.friendsCamera/.MainActivity 1fd74e0 pid=18827
+    Local FragmentActivity 16752b7 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@69bc470
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@69bc470
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{765dd0d V.E..... ... 0,0-1440,2560}
+        android.widget.LinearLayout{4ccf3e9 V.E..... ... 0,0-1440,2560}
+          android.view.ViewStub{ccb086e G.E..... ... 0,0-0,0 #102046a android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{2184b0f V.E..... ... 0,96-1440,2560}
+            android.support.v7.widget.ActionBarOverlayLayout{7d0b79c V.E..... ... 0,0-1440,2464 #7f0d0041 app:id/decor_content_parent}
+              android.support.v7.widget.ContentFrameLayout{a77e5a5 V.E..... ... 0,224-1440,2464 #1020002 android:id/content}
+                android.widget.LinearLayout{fa33d7a V.E..... ... 0,0-1440,2240 #7f0d0060 app:id/root_layout}
+                  android.support.v7.widget.AppCompatTextView{b98892b V.ED.... ... 0,0-1440,76 #7f0d0061 app:id/text_state}
+                  android.widget.ScrollView{bffb188 VFED.V.. ... 0,76-1440,2240 #7f0d0062 app:id/button_layout}
+                    android.widget.LinearLayout{b263721 VFE..... F.. 0,0-1440,3481}
+                      android.support.v7.widget.AppCompatButton{897b746 VFED..C. ... 0,0-1440,192 #7f0d0063 app:id/button_connect}
+                      android.support.v7.widget.AppCompatTextView{8948d07 V.ED.... ... 0,192-281,268 #7f0d0064 app:id/textConnectionStatus}
+                      android.support.v7.widget.AppCompatEditText{4a25e34 VFED..CL ... 0,268-1275,449 #7f0d0065 app:id/editTextIPAddr}
+                      android.support.v7.widget.AppCompatButton{20e245d VFED..C. ... 0,449-1440,641 #7f0d0066 app:id/buttonChoose}
+                      android.support.v7.widget.AppCompatTextView{c0801d2 V.ED.... ... 0,641-1440,717 #7f0d0067 app:id/textView}
+                      android.support.v7.widget.AppCompatButton{a62f2a3 VFED..C. ... 0,717-1440,909 #7f0d0068 app:id/buttonUpload}
+                      android.support.v7.widget.AppCompatTextView{f2129a0 V.ED.... ... 0,909-1440,985 #7f0d0069 app:id/textViewResponse}
+                      android.support.v7.widget.AppCompatButton{d8da959 VF.D..C. ... 0,985-1440,1177 #7f0d006a app:id/button_cameraimage}
+                      android.support.v7.widget.AppCompatButton{2c0691e VF.D..C. ... 0,1177-1440,1369 #7f0d006b app:id/button_cameravideo}
+                      android.support.v7.widget.AppCompatButton{72815ff VFED..C. ... 0,1369-1440,1561 #7f0d006c app:id/button_downloadimage}
+                      android.support.v7.widget.AppCompatButton{4ff3fcc VFED..C. ... 0,1561-1440,1753 #7f0d006d app:id/button_downloadvideo}
+                      android.support.v7.widget.AppCompatButton{9e68215 VF.D..C. ... 0,1753-1440,1945 #7f0d006e app:id/button_info}
+                      android.support.v7.widget.AppCompatButton{405f92a VF.D..C. ... 0,1945-1440,2137 #7f0d006f app:id/button_state}
+                      android.support.v7.widget.AppCompatButton{8f2131b VF.D..C. ... 0,2137-1440,2329 #7f0d0070 app:id/button_checkforupdate}
+                      android.support.v7.widget.AppCompatButton{2c68cb8 VF.D..C. ... 0,2329-1440,2521 #7f0d0071 app:id/button_option}
+                      android.support.v7.widget.AppCompatButton{bba2a91 VF.D..C. ... 0,2521-1440,2713 #7f0d0072 app:id/button_takePicture}
+                      android.support.v7.widget.AppCompatButton{4627df6 VF.D..C. ... 0,2713-1440,2905 #7f0d0073 app:id/button_recordVideo}
+                      android.support.v7.widget.AppCompatButton{294c5f7 VF.D..C. ... 0,2905-1440,3097 #7f0d0074 app:id/button_captureinterval}
+                      android.support.v7.widget.AppCompatButton{1b3bc64 VF.D..C. ... 0,3097-1440,3289 #7f0d0075 app:id/button_settings}
+                      android.support.v7.widget.AppCompatButton{645decd VF.D..C. ... 0,3289-1440,3481 #7f0d0076 app:id/button_preview}
+              android.support.v7.widget.ActionBarContainer{5308382 V.ED.... ... 0,0-1440,224 #7f0d0042 app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{645ca93 V.E..... ... 0,0-1440,224 #7f0d0043 app:id/action_bar}
+                  android.widget.TextView{223ad0 V.ED.... ... 64,58-446,165}
+                  android.support.v7.widget.ActionMenuView{95e9ac9 V.E..... ... 1440,0-1440,224}
+                android.support.v7.widget.ActionBarContextView{e755ce G.E..... ... 0,0-0,0 #7f0d0044 app:id/action_context_bar}
+        android.view.View{9f87cef V.ED.... ... 0,0-1440,96 #102002f android:id/statusBarBackground}
